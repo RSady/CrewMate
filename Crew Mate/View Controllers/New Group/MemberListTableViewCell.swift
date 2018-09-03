@@ -43,7 +43,7 @@ class MemberListTableViewCell: UITableViewCell {
     
     fileprivate func styleImageView(_ imageView: UIImageView) {
         imageView.clipsToBounds = true
-        imageView.layer.cornerRadius = imageView.frame.width / 2
+        imageView.layer.cornerRadius = imageView.bounds.height / 2
         imageView.layer.borderColor = UIColor.black.cgColor
         imageView.layer.borderWidth = 1
         imageView.layer.masksToBounds = true

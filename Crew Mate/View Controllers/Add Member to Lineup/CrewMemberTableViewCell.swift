@@ -18,7 +18,7 @@ class CrewMemberTableViewCell: UITableViewCell {
         didSet {
             nameLabel.textColor = .black
             nameLabel.text = "\(member.firstName ?? "Error") \(member.lastName ?? "Error")"
-            picture.layer.cornerRadius = picture.frame.width / 2
+            picture.layer.cornerRadius = picture.frame.height / 2
             picture.layer.borderColor = UIColor.black.cgColor
             picture.layer.borderWidth = 1
             picture.layer.masksToBounds = true
