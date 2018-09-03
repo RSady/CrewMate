@@ -1,4 +1,164 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.12.1" systemVersion="18A371a" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CrewMember" representedClassName="CrewMember" syncable="YES" codeGenerationType="class">
+        <attribute name="cleared" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="cleared"/>
+            </userInfo>
+        </attribute>
+        <attribute name="firstName" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="first_name"/>
+            </userInfo>
+        </attribute>
+        <attribute name="height" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="height"/>
+            </userInfo>
+        </attribute>
+        <attribute name="id" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="id"/>
+                <entry key="JSONTransformerName" value="Crew_Mate.Transformer"/>
+            </userInfo>
+        </attribute>
+        <attribute name="lastName" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="lastName"/>
+            </userInfo>
+        </attribute>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="notes"/>
+            </userInfo>
+        </attribute>
+        <attribute name="picture" optional="YES" attributeType="Binary" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="image"/>
+                <entry key="JSONTransformerName" value="imageConverter"/>
+            </userInfo>
+        </attribute>
+        <attribute name="searchText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="side" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="side"/>
+            </userInfo>
+        </attribute>
+        <attribute name="time2k" optional="YES" attributeType="Transformable" customClassName="[Int]" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="time_2k"/>
+            </userInfo>
+        </attribute>
+        <attribute name="time5k" optional="YES" attributeType="Transformable" customClassName="[Int]" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="time_5k"/>
+            </userInfo>
+        </attribute>
+        <attribute name="time6k" optional="YES" attributeType="Transformable" customClassName="[Int]" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="time_6k"/>
+            </userInfo>
+        </attribute>
+    </entity>
+    <entity name="Equipment" representedClassName="Equipment" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="id"/>
+            </userInfo>
+        </attribute>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="image"/>
+                <entry key="JSONTransformerName" value="imageConverter"/>
+            </userInfo>
+        </attribute>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="name"/>
+            </userInfo>
+        </attribute>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="string"/>
+            </userInfo>
+        </attribute>
+    </entity>
+    <entity name="Lineup" representedClassName="Lineup" syncable="YES" codeGenerationType="class">
+        <attribute name="boat" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="boat"/>
+            </userInfo>
+        </attribute>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="created_at"/>
+                <entry key="JSONTransformerName" value="dateConverter"/>
+            </userInfo>
+        </attribute>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="id"/>
+            </userInfo>
+        </attribute>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="name"/>
+            </userInfo>
+        </attribute>
+        <attribute name="oar" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="oar"/>
+            </userInfo>
+        </attribute>
+        <attribute name="row1" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="row_1"/>
+            </userInfo>
+        </attribute>
+        <attribute name="row2" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="row_2"/>
+            </userInfo>
+        </attribute>
+        <attribute name="row3" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="row_3"/>
+            </userInfo>
+        </attribute>
+        <attribute name="row4" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="row_4"/>
+            </userInfo>
+        </attribute>
+        <attribute name="row5" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="row_5"/>
+            </userInfo>
+        </attribute>
+        <attribute name="row6" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="row_6"/>
+            </userInfo>
+        </attribute>
+        <attribute name="row7" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="row_7"/>
+            </userInfo>
+        </attribute>
+        <attribute name="row8" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="row_8"/>
+            </userInfo>
+        </attribute>
+        <attribute name="row9" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="row_9"/>
+            </userInfo>
+        </attribute>
+    </entity>
+    <elements>
+        <element name="CrewMember" positionX="-63" positionY="-18" width="128" height="225"/>
+        <element name="Equipment" positionX="-36" positionY="117" width="128" height="105"/>
+        <element name="Lineup" positionX="-54" positionY="45" width="128" height="255"/>
+    </elements>
 </model>

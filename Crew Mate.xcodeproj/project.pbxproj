@@ -3,27 +3,71 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31030F58211F4D670091BC63 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31030F57211F4D670091BC63 /* HomeViewController.swift */; };
+		31030F5A211F4D750091BC63 /* CrewMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31030F59211F4D750091BC63 /* CrewMembersViewController.swift */; };
+		31030F5C211F4D7E0091BC63 /* MemberEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31030F5B211F4D7E0091BC63 /* MemberEditorViewController.swift */; };
+		31030F5E211F4D860091BC63 /* LineupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31030F5D211F4D860091BC63 /* LineupsViewController.swift */; };
+		31030F60211F4D960091BC63 /* LineupEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31030F5F211F4D960091BC63 /* LineupEditorViewController.swift */; };
+		31030F64211F62A40091BC63 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31030F63211F62A40091BC63 /* Extensions.swift */; };
 		31310E0C211CC9D9007AA4EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31310E0B211CC9D9007AA4EA /* AppDelegate.swift */; };
-		31310E0E211CC9D9007AA4EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31310E0D211CC9D9007AA4EA /* ViewController.swift */; };
 		31310E11211CC9D9007AA4EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31310E0F211CC9D9007AA4EA /* Main.storyboard */; };
 		31310E14211CC9D9007AA4EA /* Crew_Mate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31310E12211CC9D9007AA4EA /* Crew_Mate.xcdatamodeld */; };
 		31310E16211CC9DB007AA4EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31310E15211CC9DB007AA4EA /* Assets.xcassets */; };
 		31310E19211CC9DB007AA4EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31310E17211CC9DB007AA4EA /* LaunchScreen.storyboard */; };
+		31384458213CED9400A3793B /* EquipmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31384457213CED9400A3793B /* EquipmentTableViewCell.swift */; };
+		316450B3213C49F60014EFC0 /* MemberListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316450B2213C49F60014EFC0 /* MemberListTableViewCell.swift */; };
+		319469572120F2740096866A /* CrewMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319469562120F2740096866A /* CrewMemberTableViewCell.swift */; };
+		3194695C2121066A0096866A /* LineupPositionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3194695B2121066A0096866A /* LineupPositionTableViewCell.swift */; };
+		31B439EB2120837E009561D7 /* ProtocolDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B439EA2120837E009561D7 /* ProtocolDelegates.swift */; };
+		31B439ED2120844D009561D7 /* EquipmentEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B439EC2120844D009561D7 /* EquipmentEditorViewController.swift */; };
+		31B439EF212084B5009561D7 /* EquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B439EE212084B5009561D7 /* EquipmentViewController.swift */; };
+		31B439F12120B34E009561D7 /* AddMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B439F02120B34E009561D7 /* AddMemberViewController.swift */; };
+		6DA601EAA9E76BF847D68911 /* Pods_Crew_Mate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6805B6FAB39DE49DAC7A37 /* Pods_Crew_Mate.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		316450CB213C6E2C0014EFC0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2EFAFE5FCB9EC4818B32EDDE /* Pods-Crew Mate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crew Mate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crew Mate/Pods-Crew Mate.debug.xcconfig"; sourceTree = "<group>"; };
+		31030F57211F4D670091BC63 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		31030F59211F4D750091BC63 /* CrewMembersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewMembersViewController.swift; sourceTree = "<group>"; };
+		31030F5B211F4D7E0091BC63 /* MemberEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberEditorViewController.swift; sourceTree = "<group>"; };
+		31030F5D211F4D860091BC63 /* LineupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineupsViewController.swift; sourceTree = "<group>"; };
+		31030F5F211F4D960091BC63 /* LineupEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineupEditorViewController.swift; sourceTree = "<group>"; };
+		31030F63211F62A40091BC63 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		31310E08211CC9D9007AA4EA /* Crew Mate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crew Mate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31310E0B211CC9D9007AA4EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31310E0D211CC9D9007AA4EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		31310E10211CC9D9007AA4EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31310E13211CC9D9007AA4EA /* Crew_Mate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Crew_Mate.xcdatamodel; sourceTree = "<group>"; };
 		31310E15211CC9DB007AA4EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31310E18211CC9DB007AA4EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31310E1A211CC9DB007AA4EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31384457213CED9400A3793B /* EquipmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTableViewCell.swift; sourceTree = "<group>"; };
+		316450B2213C49F60014EFC0 /* MemberListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberListTableViewCell.swift; sourceTree = "<group>"; };
+		316450BA213C6E1B0014EFC0 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		319469562120F2740096866A /* CrewMemberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewMemberTableViewCell.swift; sourceTree = "<group>"; };
+		3194695B2121066A0096866A /* LineupPositionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineupPositionTableViewCell.swift; sourceTree = "<group>"; };
+		31B439EA2120837E009561D7 /* ProtocolDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDelegates.swift; sourceTree = "<group>"; };
+		31B439EC2120844D009561D7 /* EquipmentEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentEditorViewController.swift; sourceTree = "<group>"; };
+		31B439EE212084B5009561D7 /* EquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentViewController.swift; sourceTree = "<group>"; };
+		31B439F02120B34E009561D7 /* AddMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemberViewController.swift; sourceTree = "<group>"; };
+		3658575A87CF1E1F362BC937 /* Pods-Crew Mate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crew Mate.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crew Mate/Pods-Crew Mate.release.xcconfig"; sourceTree = "<group>"; };
+		4B6805B6FAB39DE49DAC7A37 /* Pods_Crew_Mate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crew_Mate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DA601EAA9E76BF847D68911 /* Pods_Crew_Mate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +87,8 @@
 			children = (
 				31310E0A211CC9D9007AA4EA /* Crew Mate */,
 				31310E09211CC9D9007AA4EA /* Products */,
+				F982093DA9AD6BA6F49E1B1C /* Pods */,
+				76507EF20DA3BA312F302D15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +103,11 @@
 		31310E0A211CC9D9007AA4EA /* Crew Mate */ = {
 			isa = PBXGroup;
 			children = (
+				31310E21211CCBCC007AA4EA /* Resources */,
+				31310E20211CC9FC007AA4EA /* View Controllers */,
 				31310E0B211CC9D9007AA4EA /* AppDelegate.swift */,
-				31310E0D211CC9D9007AA4EA /* ViewController.swift */,
+				31B439EA2120837E009561D7 /* ProtocolDelegates.swift */,
+				31030F63211F62A40091BC63 /* Extensions.swift */,
 				31310E0F211CC9D9007AA4EA /* Main.storyboard */,
 				31310E15211CC9DB007AA4EA /* Assets.xcassets */,
 				31310E17211CC9DB007AA4EA /* LaunchScreen.storyboard */,
@@ -67,6 +117,99 @@
 			path = "Crew Mate";
 			sourceTree = "<group>";
 		};
+		31310E20211CC9FC007AA4EA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				31030F57211F4D670091BC63 /* HomeViewController.swift */,
+				316450B4213C64480014EFC0 /* Crew Members */,
+				3194695A2120FEFB0096866A /* Lineups */,
+				319469592120FED90096866A /* Add Member to Lineup */,
+				319469582120FEC30096866A /* Equipment */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		31310E21211CCBCC007AA4EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31310E23211CCBD9007AA4EA /* Icons */,
+				31310E22211CCBD2007AA4EA /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		31310E22211CCBD2007AA4EA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		31310E23211CCBD9007AA4EA /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		316450B4213C64480014EFC0 /* Crew Members */ = {
+			isa = PBXGroup;
+			children = (
+				31030F59211F4D750091BC63 /* CrewMembersViewController.swift */,
+				31030F5B211F4D7E0091BC63 /* MemberEditorViewController.swift */,
+				316450B2213C49F60014EFC0 /* MemberListTableViewCell.swift */,
+			);
+			name = "Crew Members";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		319469582120FEC30096866A /* Equipment */ = {
+			isa = PBXGroup;
+			children = (
+				31B439EE212084B5009561D7 /* EquipmentViewController.swift */,
+				31B439EC2120844D009561D7 /* EquipmentEditorViewController.swift */,
+				31384457213CED9400A3793B /* EquipmentTableViewCell.swift */,
+			);
+			path = Equipment;
+			sourceTree = "<group>";
+		};
+		319469592120FED90096866A /* Add Member to Lineup */ = {
+			isa = PBXGroup;
+			children = (
+				31B439F02120B34E009561D7 /* AddMemberViewController.swift */,
+				319469562120F2740096866A /* CrewMemberTableViewCell.swift */,
+			);
+			path = "Add Member to Lineup";
+			sourceTree = "<group>";
+		};
+		3194695A2120FEFB0096866A /* Lineups */ = {
+			isa = PBXGroup;
+			children = (
+				31030F5D211F4D860091BC63 /* LineupsViewController.swift */,
+				31030F5F211F4D960091BC63 /* LineupEditorViewController.swift */,
+				3194695B2121066A0096866A /* LineupPositionTableViewCell.swift */,
+			);
+			path = Lineups;
+			sourceTree = "<group>";
+		};
+		76507EF20DA3BA312F302D15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B6805B6FAB39DE49DAC7A37 /* Pods_Crew_Mate.framework */,
+				316450BA213C6E1B0014EFC0 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F982093DA9AD6BA6F49E1B1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EFAFE5FCB9EC4818B32EDDE /* Pods-Crew Mate.debug.xcconfig */,
+				3658575A87CF1E1F362BC937 /* Pods-Crew Mate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31310E1D211CC9DB007AA4EA /* Build configuration list for PBXNativeTarget "Crew Mate" */;
 			buildPhases = (
+				3C6886D538AA91588CB4A30C /* [CP] Check Pods Manifest.lock */,
 				31310E04211CC9D9007AA4EA /* Sources */,
 				31310E05211CC9D9007AA4EA /* Frameworks */,
 				31310E06211CC9D9007AA4EA /* Resources */,
+				43B9C1955B2CBFCABFCDBA30 /* [CP] Embed Pods Frameworks */,
+				316450CB213C6E2C0014EFC0 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -99,11 +245,12 @@
 				TargetAttributes = {
 					31310E07211CC9D9007AA4EA = {
 						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 31310E03211CC9D9007AA4EA /* Build configuration list for PBXProject "Crew Mate" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -133,14 +280,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C6886D538AA91588CB4A30C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crew Mate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43B9C1955B2CBFCABFCDBA30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Crew Mate/Pods-Crew Mate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Groot/Groot.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TBEmptyDataSet/TBEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/XLActionController/XLActionController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Groot.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TBEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLActionController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crew Mate/Pods-Crew Mate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31310E04211CC9D9007AA4EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31310E0E211CC9D9007AA4EA /* ViewController.swift in Sources */,
+				31B439F12120B34E009561D7 /* AddMemberViewController.swift in Sources */,
+				31030F5E211F4D860091BC63 /* LineupsViewController.swift in Sources */,
+				31384458213CED9400A3793B /* EquipmentTableViewCell.swift in Sources */,
+				31030F64211F62A40091BC63 /* Extensions.swift in Sources */,
+				316450B3213C49F60014EFC0 /* MemberListTableViewCell.swift in Sources */,
+				319469572120F2740096866A /* CrewMemberTableViewCell.swift in Sources */,
+				31B439ED2120844D009561D7 /* EquipmentEditorViewController.swift in Sources */,
+				3194695C2121066A0096866A /* LineupPositionTableViewCell.swift in Sources */,
 				31310E14211CC9D9007AA4EA /* Crew_Mate.xcdatamodeld in Sources */,
+				31030F5C211F4D7E0091BC63 /* MemberEditorViewController.swift in Sources */,
+				31030F60211F4D960091BC63 /* LineupEditorViewController.swift in Sources */,
+				31B439EB2120837E009561D7 /* ProtocolDelegates.swift in Sources */,
+				31030F5A211F4D750091BC63 /* CrewMembersViewController.swift in Sources */,
 				31310E0C211CC9D9007AA4EA /* AppDelegate.swift in Sources */,
+				31030F58211F4D670091BC63 /* HomeViewController.swift in Sources */,
+				31B439EF212084B5009561D7 /* EquipmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,23 +485,20 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		31310E1E211CC9DB007AA4EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFAFE5FCB9EC4818B32EDDE /* Pods-Crew Mate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 754ADC4875;
 				INFOPLIST_FILE = "Crew Mate/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.szadydesigns.Crew-Mate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -302,15 +508,13 @@
 		};
 		31310E1F211CC9DB007AA4EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3658575A87CF1E1F362BC937 /* Pods-Crew Mate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 754ADC4875;
 				INFOPLIST_FILE = "Crew Mate/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.szadydesigns.Crew-Mate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
